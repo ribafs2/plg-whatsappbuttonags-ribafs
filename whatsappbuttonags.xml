@@ -32,6 +32,7 @@
 				<field name="numberphone" type="text" default="67055843" label="Phone Number"/>
 				<field name="msj" type="text" default="Welcome To jQueryScript.Net" label="Popup Message"/>
 				<field name="headerTitle" type="text" default="jQuery Floating WhatsApp" label="Header Title"/>
+				<field name="sendMsg" type="text" default="Enviar uma mensagem" label="Mensagem"/>				
 				<field name="popup" type="radio" default="0" label="Show Popup" description="">
 			  <option value="0">true</option>
 			  <option value="1">false</option>
