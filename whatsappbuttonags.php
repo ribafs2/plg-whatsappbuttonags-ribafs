@@ -28,6 +28,7 @@ function onBeforeRender(){
 	 $msj           = $this->params->get('msj');
 	 $headerTitle   = $this->params->get('headerTitle');
 	 $popup         = $this->params->get('popup');
+	 $sendMsg       = $this->params->get('sendMsg');	 
 	 $position      = $this->params->get('position');
 	 $background    = $this->params->get('background');
 	 $headerColor   = $this->params->get('headerColor');
@@ -65,7 +66,7 @@ function onBeforeRender(){
             position: '$position',
             //autoOpen: false,
             //autoOpenTimer: 4000,
-            message: 'Your message to send!',
+            message: '$sendMsg',
             //headerColor: 'orange',
             headerTitle: '$headerTitle ',
         });
